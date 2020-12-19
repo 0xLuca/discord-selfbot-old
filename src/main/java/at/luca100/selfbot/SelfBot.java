@@ -12,7 +12,6 @@ public class SelfBot {
            if (event.getMessage().getChannel().getId() == Long.parseLong("746276747376459816")) {
                //event.getMessage().addReaction("HawaraSalesch:779575855218688001");
                event.getMessage().addReaction("\uD83D\uDDFF");
-               String content = event.getMessageContent();
            }
         });
     }
